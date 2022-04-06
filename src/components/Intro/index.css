@@ -1,0 +1,16 @@
+@import "../../global.css";
+
+.intro {
+  background-color: var(--background);
+  display: flex;
+}
+
+.intro .left {
+  flex: 0.5;
+  background-color: var(--main-color);
+}
+
+.intro .right {
+  flex: 0.5;
+  background-color: var(--background);
+}

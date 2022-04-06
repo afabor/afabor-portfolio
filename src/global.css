@@ -1,0 +1,8 @@
+:root {
+  --main-color: #3fbf77;
+  --background: #faf9f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
