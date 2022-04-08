@@ -6,10 +6,15 @@
   background-color: var(--main-color);
   position: fixed;
   top: 0;
+  bottom: 0;
   z-index: 2;
   overflow-y: hidden;
+  transition: 0.3s ease-in;
 }
 
+.nav-bar.active {
+}
+/* LEFT COMPONENTS */
 .wrapper .left .logo {
   color: white;
   text-decoration: none;
@@ -39,7 +44,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-
+/* RIGHT COMPONENTS */
 .right .itemContainer {
   display: flex;
   align-items: center;
@@ -62,3 +67,11 @@
 .right a:hover {
   background-position: -100%;
 }
+/* #cv-button {
+  background-color: transparent;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 15px;
+} */

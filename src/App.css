@@ -20,16 +20,19 @@
   height: calc(100vh - 70px);
   scroll-snap-align: start;
 }
-.App .sections > *::webkit-scrollbar {
-  width: 2vw;
+/* SCROLLBAR */
+.App > *::-webkit-scrollbar {
+  width: 0.5vw;
+  background-color: var(--background);
 }
-.App .sections > *::-webkit-scrollbar-thumb {
+.App > *::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
+  border-radius: 100vw;
 }
-.App .sections > *::-webkit-scrollbar-thumb:hover {
-  background-color: "#0B7B3C";
+.App > *::-webkit-scrollbar-thumb:hover {
+  opacity: 0.5;
 }
 
-.App .sections > *::-webkit-scrollbar-track {
+/*.App .sections > *::-webkit-scrollbar-track {
   background-color: transparent;
-}
+} */

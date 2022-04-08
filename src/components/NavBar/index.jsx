@@ -22,7 +22,9 @@ export default function NavBar() {
             <a href="#contact">Contact</a>
           </div>
           <div className="itemContainer">
-            <a href="#CV">CV</a>
+            <a id="cv-button" href="#">
+              Download CV
+            </a>
           </div>
         </div>
       </div>
