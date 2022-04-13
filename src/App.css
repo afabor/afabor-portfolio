@@ -2,12 +2,13 @@
 
 .App {
   height: 100vh;
-  background-color: var(--main-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(./components/Intro/CSS-Images/background.jpg);
 }
 .App .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: #f5f5f5;
+  background-color: var(--background);
   position: relative;
   top: 70px;
   scroll-behavior: smooth;

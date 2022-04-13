@@ -3,12 +3,63 @@
 .intro {
   background-color: var(--background);
   display: flex;
+  transform: 0.6s;
 }
 
-.intro .left {
-  flex: 0.5;
+.intro .container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  height: full;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 20px;
+  color: #048b82;
+}
+h1 {
+  font-size: 60px;
+  margin: 20px 0;
+  color: var(--main-color);
+  font-weight: 800;
+  font: bold;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+.left .image-container {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
 }
 
-.intro .right {
-  flex: 0.5;
+.container button {
+  margin-top: 70px;
+  border-radius: 6px;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 20px;
+  padding: 18px;
+  width: 200px;
+  background-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: whitesmoke;
+  background-image: linear-gradient(to left, #c4e538, #009432, #c4e538);
+  transition: 0.6s;
+}
+
+.container button:hover {
+  background-position: right;
 }
