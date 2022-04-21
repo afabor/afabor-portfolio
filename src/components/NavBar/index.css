@@ -64,6 +64,7 @@
 
 .right a:hover {
   background-position: -100%;
+  font-weight: bold;
 }
 /* #cv-button {
   background-color: transparent;

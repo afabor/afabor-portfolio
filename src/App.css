@@ -1,20 +1,19 @@
 @import "./global.css";
 
+html {
+  scroll-behavior: smooth !important;
+}
 .App {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
-    url(./components/Intro/CSS-Images/background.jpg);
 }
 .App .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: var(--background);
+  background-color: var(--dark-background);
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  scrollbar-width: thin;
-  scrollbar-color: var(--main-color);
 }
 .App .sections > * {
   width: 100vw;
@@ -24,14 +23,14 @@
 /* SCROLLBAR */
 .App > *::-webkit-scrollbar {
   width: 0.5vw;
-  background-color: var(--background);
+  background-color: var(--dark-background);
 }
 .App > *::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
   border-radius: 100vw;
 }
 .App > *::-webkit-scrollbar-thumb:hover {
-  opacity: 0.5;
+  background-color: var(--secondary-color);
 }
 
 /*.App .sections > *::-webkit-scrollbar-track {

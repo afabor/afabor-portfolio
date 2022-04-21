@@ -1,11 +1,12 @@
 :root {
   --main-color: #3fbf77;
   --secondary-color: #b3d89c;
+  --third-color: #048b82;
   --background: #f5f5f5;
   --dark-background: #232b2b;
   --image-background: #e3e3e3;
 }
 
 html {
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
