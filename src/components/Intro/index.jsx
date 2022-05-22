@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./index.css";
+import "./intro.css";
 import { init } from "ityped";
 
 export default function Intro({ url }) {
@@ -26,7 +26,22 @@ export default function Intro({ url }) {
           I'm a<span ref={textRef}> </span>
         </h3>
         <div>
-          <button url="#projects">View Work</button>
+          <p>
+            I have recently graduated from a 16 week bootcamp with School of
+            Code.
+          </p>
+          <p>Working regularly in agile teams.</p>
+          <button>
+            <a href="#projects">View Work</a>
+          </button>
+        </div>
+      </div>
+      <div className="skills">
+        <h1>Key Skills</h1>
+        <div className="skill-image">
+          <figure>
+            <img src="CSS-Images/css.jpg" alt="css " />
+          </figure>
         </div>
       </div>
     </div>

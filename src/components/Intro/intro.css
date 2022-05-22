@@ -46,6 +46,12 @@ span {
 .image-container img {
   width: 100%;
 }
+.intro p {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--main-color);
+}
 
 .container button {
   margin-top: 70px;
@@ -65,4 +71,21 @@ span {
 
 .container button:hover {
   background-position: right;
+}
+
+.container a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.skills-image {
 }

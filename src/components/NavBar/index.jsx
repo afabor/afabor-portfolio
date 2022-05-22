@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./navbar.css";
 import { MailOutlined, UserOutlined } from "@ant-design/icons";
 
 export default function NavBar() {
