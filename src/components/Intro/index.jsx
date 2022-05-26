@@ -40,7 +40,7 @@ export default function Intro({ url }) {
         <h1>Key Skills</h1>
         <div className="skill-image">
           <figure>
-            <img src="CSS-Images/css.jpg" alt="css " />
+            <img src="CSS-Images/project1.png" alt="" />
           </figure>
         </div>
       </div>
