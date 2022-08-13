@@ -80,12 +80,23 @@ span {
   text-decoration: none;
 }
 
-.skills {
-  display: flex;
+.custom-shape-divider-bottom-1659691707 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  justify-content: center;
-  margin-top: 120px;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-.skills-image {
+.custom-shape-divider-bottom-1659691707 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 174px;
+}
+
+.custom-shape-divider-bottom-1659691707 .shape-fill {
+  fill: var(--main-color);
 }
