@@ -12,15 +12,24 @@ export default function Projects() {
       <div className="slider">
         <div className="container">
           <div className="item">
-            <div className="left"></div>
-            <div className="right"></div>
-            {/* <img
-              src="https://designshack.net/wp-content/uploads/placeholder-image-368x246.png"
-              alt="Week 9 Project"
-            /> */}
+            <div className="left">
+              <div className="leftContainer">
+                <div className="imgContainer">
+                  <img src="assets/web.png" alt="" />
+                </div>
+                <h2>Title</h2>
+                <p>Description</p>
+                <span>Projects</span>
+              </div>
+            </div>
+            <div className="right">
+              <img src="assets/project1.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
+      <img src="assets/arrow.png" className="arrow left" alt="" />
+      <img src="assets/arrow.png" className="arrow right" alt="" />
     </div>
   );
 }
