@@ -17,9 +17,15 @@ export default function Projects() {
                 <div className="imgContainer">
                   <img src="assets/web.png" alt="" />
                 </div>
-                <h2>Title</h2>
-                <p>Description</p>
-                <span>Projects</span>
+                <h2>Bootcamper Portal App</h2>
+                <p>
+                  This app was created as a group to improve the experience of
+                  fellow bootcampers. We created an app where bootcampers can
+                  provide better feedback to each session as well as get
+                  additional links for topics that have been covered.
+                </p>
+                <h3>Technologies Used:</h3>
+                <span>React Postgres</span>
               </div>
             </div>
             <div className="right">
