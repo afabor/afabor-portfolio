@@ -42,8 +42,8 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
       <div className="slider">
-        <div className="container">
-          {data.map((data) => (
+        {data.map((data) => (
+          <div className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
@@ -60,8 +60,8 @@ export default function Projects() {
                 <img src={data.image} alt="" />
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
 
       <img src="assets/arrow.png" className="arrow left" alt="" />
