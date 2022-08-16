@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./projects.scss";
 import { data } from "../../data";
 
 export default function Projects() {
+  const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
@@ -17,7 +18,7 @@ export default function Projects() {
       id: "2",
       icon: "assets/mobile.png",
       image: "assets/project2.png",
-      title: "MyTribe Family App,",
+      title: "MyTribe Family App",
       desc: "The MyTribe app was created to organise family chores and responsibilities. This was my first experience using React Native",
       tech: "React Native Firebase",
     },
@@ -38,10 +39,17 @@ export default function Projects() {
       tech: "React",
     },
   ];
-
+  function handleClick(direction) {
+    direction === "left"
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
+      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+  }
   return (
     <div className="projects" id="projects">
-      <div className="slider">
+      <div
+        className="slider"
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+      >
         {data.map((data) => (
           <div className="container">
             <div className="item">
@@ -64,8 +72,18 @@ export default function Projects() {
         ))}
       </div>
 
-      <img src="assets/arrow.png" className="arrow left" alt="" />
-      <img src="assets/arrow.png" className="arrow right" alt="" />
+      <img
+        src="assets/arrow.png"
+        className="arrow left"
+        alt=""
+        onClick={() => handleClick("left")}
+      />
+      <img
+        src="assets/arrow.png"
+        className="arrow right"
+        alt=""
+        onClick={() => handleClick()}
+      />
     </div>
   );
 }
