@@ -5,6 +5,13 @@
   justify-content: center;
   position: relative;
 
+  h1 {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .arrow {
     height: 50px;
     position: absolute;

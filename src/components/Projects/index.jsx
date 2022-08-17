@@ -7,7 +7,7 @@ export default function Projects() {
 
   function handleClick(direction) {
     direction === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length - 1)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   }
   return (

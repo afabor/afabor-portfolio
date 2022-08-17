@@ -9,7 +9,7 @@ html {
 .App .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: var(--dark-background);
+  background-color: var(--background);
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
@@ -23,7 +23,7 @@ html {
 /* SCROLLBAR */
 .App > *::-webkit-scrollbar {
   width: 0.5vw;
-  background-color: var(--dark-background);
+  background-color: var(--background);
 }
 .App > *::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
