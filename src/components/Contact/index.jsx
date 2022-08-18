@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 export default function Contact() {
   const formRef = useRef();
 
-  const [message, setMessage] = useState(false);
+  const [done, setDone] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +21,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -56,7 +57,7 @@ export default function Contact() {
           <input type="text" placeholder="Email" name="user_email" />
           <textarea rows={5} placeholder="Message" name="message"></textarea>
           <button type="submit">send</button>
-          {message && <span>Thank you, I'll respond as soon as possible</span>}
+          {done && <span>Thank you, I'll respond as soon as possible</span>}
         </form>
       </div>
     </div>

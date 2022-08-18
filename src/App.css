@@ -32,7 +32,3 @@ html {
 .App > *::-webkit-scrollbar-thumb:hover {
   background-color: var(--secondary-color);
 }
-
-/*.App .sections > *::-webkit-scrollbar-track {
-  background-color: transparent;
-} */
