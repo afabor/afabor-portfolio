@@ -1,1 +1,30 @@
 @import "../../global.css";
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .toggleButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--dark-background);
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+  }
+}
