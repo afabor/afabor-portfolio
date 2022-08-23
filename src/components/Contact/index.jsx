@@ -33,13 +33,18 @@ export default function Contact() {
       <div className="wrapper">
         <div className="info">
           <div className="item">
-            <img src="assets/github.png" className="icon" alt="" />
+            <a href="https://github.com/afabor" target="_blank">
+              <img src="assets/github.png" className="icon" alt="" />
+            </a>
           </div>
+
           <div className="item">
-            <img src="assets/email.png" className="icon" alt="" />
-          </div>
-          <div className="item">
-            <img src="assets/phone-call.png" className="icon" alt="" />
+            <a
+              href="https://www.linkedin.com/in/michael-o-989321a7/"
+              target="_blank"
+            >
+              <img src="assets/linkedin.png" className="icon" alt="" />
+            </a>
           </div>
         </div>
       </div>
