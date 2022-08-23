@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import "./App.css";
 import Toggle from "./components/Toggle";
+import Skills from "./components/Skills";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <div className="sections">
         <Intro dark={dark} />
+        <Skills />
         <Projects dark={dark} />
         <Contact dark={dark} />
       </div>

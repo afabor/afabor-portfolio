@@ -13,7 +13,7 @@ export default function NavBar() {
         </div>
         <div className="right">
           <div className="itemContainer">
-            <a href="#intro">About</a>
+            <a href="#skills">Skills</a>
           </div>
           <div className="itemContainer">
             <a href="#projects">Projects</a>
