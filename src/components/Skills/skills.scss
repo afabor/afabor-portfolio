@@ -27,24 +27,4 @@
       }
     }
   }
-  .custom-shape-divider-bottom-1661435628 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-
-    svg {
-      position: relative;
-      display: block;
-      width: calc(120% + 1.3px);
-      height: 211px;
-    }
-
-    .shape-fill {
-      fill: #3fbf77;
-    }
-  }
 }
