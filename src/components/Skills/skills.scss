@@ -12,18 +12,25 @@
     }
     p {
       padding: 16px;
+      color: var(--third-color);
     }
-    .skillsContainer {
-      display: grid;
-      grid-template-columns: repeat(8, 200px);
-      gap: 16px;
-      text-align: center;
-      padding-top: 32px;
-      padding-bottom: 32px;
+    .skillBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-      .icon {
-        width: 70px;
-        margin: auto;
+      .skillsContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        gap: 16px;
+        text-align: center;
+        padding: 32px;
+
+        .icon {
+          width: 70px;
+          margin: auto;
+          border-radius: 20px;
+        }
       }
     }
   }

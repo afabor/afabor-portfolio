@@ -19,7 +19,7 @@ export default function Intro({ url }) {
   }, []);
   return (
     <div className="intro" id="intro">
-      <div className="container">
+      <div className="intro-container">
         <h2>Hi, my name is</h2>
         <h1>Michael Ovie-Afabor</h1>
         <h3>
@@ -30,8 +30,11 @@ export default function Intro({ url }) {
             I have recently graduated from a 16 week bootcamp with School of
             Code.
           </p>
-          <p>Working regularly in agile teams.</p>
-          <button>
+          <p>
+            With a passion for professional front-end designs, I am looking to
+            boost my career prospects in tech.
+          </p>
+          <button className="intro-button">
             <a href="#projects">View Work</a>
           </button>
         </div>
