@@ -69,7 +69,7 @@ span {
   text-decoration: none;
 }
 
-.custom-shape-divider-bottom-1659691707 {
+/* .custom-shape-divider-bottom-1659691707 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -88,7 +88,7 @@ span {
 
 .custom-shape-divider-bottom-1659691707 .shape-fill {
   fill: var(--main-color);
-}
+} */
 
 @media screen and (max-width: 480px) {
   .intro {

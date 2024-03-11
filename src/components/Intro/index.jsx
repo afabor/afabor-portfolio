@@ -38,7 +38,7 @@ export default function Intro({ url }) {
             <a href="#projects">View Work</a>
           </button>
         </div>
-        <div class="custom-shape-divider-bottom-1659691707">
+        {/* <div class="custom-shape-divider-bottom-1659691707">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ export default function Intro({ url }) {
               class="shape-fill"
             ></path>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );
