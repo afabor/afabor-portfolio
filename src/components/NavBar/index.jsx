@@ -22,8 +22,8 @@ export default function NavBar() {
             <a href="#contact">Contact</a>
           </div>
           <div className="itemContainer">
-            <a id="cv-button" href="#">
-              Download CV
+            <a id="cv-button" href="assets/2024-CV.docx.pdf" target="_blank">
+              View CV
             </a>
           </div>
         </div>
