@@ -27,8 +27,8 @@ export default function Intro({ url }) {
         </h3>
         <div>
           <p>
-            I have recently graduated from a 16 week bootcamp with School of
-            Code.
+            I have graduated from a 16 week bootcamp with School of Code and a
+            12 Week Bootcamp with Skills City.
           </p>
           <p>
             With a passion for professional front-end designs, I am looking to
