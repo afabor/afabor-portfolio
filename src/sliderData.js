@@ -40,4 +40,12 @@ export const data = [
     desc: "My milestone project with Code Institute was this web page based on a sneaker cleaning service. This was a great chance for me to experiment with Bootstrap",
     tech: "HTML, CSS, Bootstrap",
   },
+  {
+    id: "6",
+    icon: "assets/web.png",
+    image: "assets/jade-dragon-gym.png",
+    title: "Jade Dragon Gym App",
+    desc: "My first Bootstrap project outside the Code Institute bootcamp. This was a great chance to further familiarise myself with Boostrap",
+    tech: "HTML, CSS, Bootstrap",
+  },
 ];
